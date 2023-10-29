@@ -3,7 +3,6 @@ package auth;
 import communication.Comunicador;
 import communication.ComunicadorManager;
 import student.Alumno;
-import student.Util;
 import utilities.MiColeccion;
 
 public class MainApplication {
@@ -31,7 +30,6 @@ public class MainApplication {
             new Alumno("Juan", 20, 8.5)
         };
 
-        Util.ordenar(arr);
 
         System.out.println("-----------------------------");
         for (int i = 0; i < arr.length; i++) {
